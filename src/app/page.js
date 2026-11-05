@@ -1,3 +1,4 @@
+import Dashboard from "@/Components/dashboard";
 import Lecturedm from "@/Components/ldm";
 import Sidebar from "@/Components/Sidebar";
 import Image from "next/image";
@@ -15,7 +16,8 @@ export default function Home() {
           <p className="text-[#765047]">
             Bienvenue dans ton journal de lecture.
           </p>
-          <Lecturedm></Lecturedm>
+          <Lecturedm></Lecturedm> 
+          <Dashboard></Dashboard>
 
         </section>
       </main>
